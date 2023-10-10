@@ -6,13 +6,9 @@
 # 1. 가상환경 폴더 생성 
 # python -m venv 가상환경이름
 # powershell 기준입니다. 
-# 만약에 실행이 되지 않는다면 powershell을 관리자 권한으로 실행후 다시 실행합니다. 
-# Set-ExecutionPolicy Unrestricted -> 코드 실행 
 
 python -m venv env
-cd env
-./Scrpits/Activate.ps1 
-# (env) PS C:\project\example>
+& ./Scrpits/Activate.ps1 
 
 # 2. 이 상태에서 패키지를 설치한다면 (가상환경명)\Lib\site-packages 안에 패키지가 저장됩니다
 
@@ -27,3 +23,9 @@ pip install -r requirements.txt
 
 # pip uninstall로 삭제하기 
 pip uninstall -r requirements.txt
+
+# 4. 가상 환경 비활성화하기
+deactivate
+
+# 5. 가상 환경 삭제하기 
+sudo rm -rf 가상환경이름
