@@ -47,5 +47,5 @@ docker start <CONTAINER_ID>
 실행중인 컨테이너 재시작하기 
 docker restart <CONTAINER_ID>
 
-컨테이너 들어가기 
+컨테이너 접근 
 docker attach <CONTAINER_ID>
