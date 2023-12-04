@@ -1,0 +1,17 @@
+처음 깃허브 설정하기 
+git config --global user.name <USER_NAME>
+git config --global user.email <USER_EMAIL>
+
+초기화 : 어떤 폴더에 명령어를 실행하면 해당 폴더는 로컬 깃 저장소로 지정된다.
+git init
+
+git clone <GITHUB_STORAGE_URL> : 깃허브 프로젝트를 로컬 깃 저장소에 clone 한다. 
+
+git status : 현재 클론된 프로젝트의 변경점을 설명해준다. 
+
+git add * : 현재 프로젝트의 모든 파일을 add 한다. 
+
+git commit -m "<MESSAGE>" : 커밋한다. -m 은 커밋 완료시 메시지를 보낸다. 
+
+git push : 깃허브 저장소에 커밋 내용을 적용한다. 
+
