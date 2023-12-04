@@ -27,3 +27,16 @@
 - 팀원 모두에게 동일한 개발환경 제공하기 (내가 공부하는 이유)
 - 새로운 버전 테스트(= 격리된 환경을 이용) 
 - 동일한 서버가 여러 대 필요한 경우(= 컨테이너 밖과 독립된 성질을 이용)  
+
+도커 간단하게 시작하기 
+docker run -it <IMAGE:TAG> --name <CONTAINER_NAME> # 이름은 선택사항
+
+이미지 확인 
+docker images
+
+컨테이너 확인 
+docker ps     # 실행되는 컨테이너만 확인 
+docker ps -a  # 실행하고 있지 않은 컨테이너도 확인 
+
+이미지 pull하기 
+docker pull <IMAGE_NAME:TAG>
