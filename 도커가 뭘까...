@@ -40,3 +40,9 @@ docker ps -a  # 실행하고 있지 않은 컨테이너도 확인
 
 이미지 pull하기 
 docker pull <IMAGE_NAME:TAG>
+
+컨테이너 시작하기 
+docker restart <CONTAINER_ID>
+
+컨테이너 들어가기 
+docker attach <CONTAINER_ID>
