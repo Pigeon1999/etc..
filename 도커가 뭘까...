@@ -42,6 +42,9 @@ docker ps -a  # 실행하고 있지 않은 컨테이너도 확인
 docker pull <IMAGE_NAME:TAG>
 
 컨테이너 시작하기 
+docker start <CONTAINER_ID>
+
+실행중인 컨테이너 재시작하기 
 docker restart <CONTAINER_ID>
 
 컨테이너 들어가기 
